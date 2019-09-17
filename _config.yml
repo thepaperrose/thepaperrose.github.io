@@ -1,1 +1,18 @@
 theme: jekyll-theme-merlot
+
+theme: minima
+title: thepaperrose's Page
+author: thepaperrose
+email: thepaperrose@hotmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  I’m glad you are here. I’ll be selling my company in the near future and have always had an interest in coding. I have some basic skills, I started with a Commodore 64 in the ’80s, took a few computer science classes in the 90s, a C++ class or two in college. I’ve mainly used HTML at work, formatting parts of our webpages and emails.
+I’m starting over with the basics, HTML and CSS were recommended by a few articles as good starting points. I’m excited to get started on a new, hopefully more fulfilling part of my life where I can help others (and make a living wage while I’m at it).
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+
+# social links
+twitter_username: your-twitter-handle
+github_username:  your-github-handle
+
+show_excerpts: true # set to false to remove excerpts on the homepage
