@@ -14,3 +14,8 @@ FreeCodeCamp
     Basic HTML and HTML5 (09/17/2019)
     Basic CSS (09/17/2019)
     Applied Visual Design (09/18/2019)
+    Applied Accessibility (09/20/2019)
+    
+SoloLearn
+
+W3Schools.com
