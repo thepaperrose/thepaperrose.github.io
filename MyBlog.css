@@ -1,0 +1,147 @@
+
+body {
+  font-size: 100%;
+  font-family: "Shadows Into Light"; /*cursive;*/sans-serif;
+  background-color: white;
+}
+nav {
+  position: fixed;
+  background-color: #ffffff;
+  padding: 20px;
+  width: 100%;
+  z-index: 10;
+}
+
+a {
+  text-decoration: none;
+}
+.header {
+  background: url(https://www.sololearn.com/Uploads/header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative; /*hides the About Me h1*/
+  top: 120px;
+  text-align: center;
+  font-size: 2.5em;
+}
+.avatar {
+  border: 5px;
+  border-radius: 50%;
+  position: relative;
+  top: 20px;
+  display: block; /*Is there an easier/better way to center?*/
+  margin-left: auto;
+  margin-right: auto;
+}
+.center {
+  
+}
+
+h1 {
+  height: auto;
+  width: 25%;
+  text-align: center;
+  color: powderblue;
+  border: 5px;
+  border-color: powderblue;
+  border-radius: 2px;
+  border-style: dotted;
+  padding: 10px 0 10px 0;
+  margin: auto;
+}
+
+h3 {
+  font-size: 35px;
+}
+
+table .schedule {
+  font-size: 2.2em;
+  border: 1px black solid;
+  display: block;
+  float: center;
+  /*align: center;
+  margin: auto;
+  width: 50%;move to center*/
+}
+th, td {
+  border: 1px black solid;
+  text-align: center;
+  padding: 15px;
+  width: 80px;
+  height: 20px;
+}
+
+textarea {
+  height: 100px;
+}
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+.navbar li {
+  padding: 20px;
+  /*float: right;
+  width:*/
+    display: block;
+  float: left;
+}
+.dropdown {
+  display: block;
+  float: left;
+  padding: 10px;
+  margin: 10px;
+}
+.search {
+  display: block;/*not displaying inline*/
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+.aboutme {
+  
+}
+
+.select {
+  background-color: tomato;
+}
+
+.skills li {
+  font-size: 1.8em;
+}
+.courses {
+  width: 100%;
+}
+media {
+  
+}
+
+.contact input, textarea {
+  width: 75%;
+  height: 30px;
+  margin: 5px;
+  background-color: #efefef;
+  border-radius: 5px;
+}
+.submit:hover {
+  background-color: lightgrey;
+}
+.follow {
+  
+}
+.horizontal { /*center*/
+  list-style-type: none;
+  background-color: blue;
+  display: block;
+  padding: 40px;
+}
+.horizontal a {
+  color: white;
+}
+.horizontal li {
+  display: inline;
+  padding: 50px;
+}
+
