@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Angi's SoloLearn My Blog Page</title>
+<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+ <!-- link CSS sheet here -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  
+  <!-- Nav Section --><!--move to below header, make sticky instead of fixed-->
+  <nav>
+    <div>
+    <ul class="navbar">
+      <li><a href="#aboutme">About Me</a></li>
+    <li><a href="#schedule">My Coding Schedule</a></li>
+    <li><a href="#skills">Classes</a></li>
+    <li><a href="#media">My Media</a></li>
+    <li><a href="#contact">Contact Me</a></li>
+    <li><a href="#follow">Follow Me</a></li>
+    </div>
+    <div>
+    <form class="dropdown" action="action_page.php"><!-- Point toward this page -->
+      <select name="bookmarks">
+        <option value="aboutme">About Me</option>
+        <option value="schedule">My Coding Schedule</option>
+        <option value="skills">Classes</option>
+        <option value="media">My Media</option>
+        <option value="contact">Contact Me</option>
+        <option value="follow">Follow Me</option>
+      </select>
+    </form>
+    </div>
+    <div>
+    <form class="search" action="#"><!--Move this to the same row.-->
+      Search My Page:
+      <input type="search" name="search page">
+      <p>submit button</p>
+    </form>
+    </div>
+      <!--add a .active on list items so userknow where they are on the page-->
+  </nav>
+
+  <!-- header Section --><!--move to above nav section-->
+<div class="header">
+  <img alt="" class="avatar" src="https://code.sololearn.com/Icons/Avatars/0.jpg">
+  <p class="center"><strong>Angela Wolverton</strong></p>
+</div>
+    
+<!-- About Me Section -->
+  <div class="aboutme">
+    <h1><strong>About Me</strong></h1><!-- This is hiding behind the cover-->
+    <p font-size="40px">Hey! I'm <strong>Angi</strong>. I own my own hospitality company, but I'm no longer happy doing what I've been doing. So, after working in the hospitality industry for nearly <em>20 yrs</em>, I'm looking for a change. I hope coding will be that change! I am using <strong>SoloLearn</strong>, along with <strong>Codecademy</strong>, <strong>freeCodeCamp</strong> and several other sites to learn, practice, and improve my skills. Feel free to join me on my journey, and please leave <strong>constructive</strong> feedback.</p>
+    
+  </div>
+ 
+<!-- My Schedule Section -->
+  <div>
+    <h1 class="schedule">My Coding Schedule</h1>
+    
+    <table class="schedule">
+                <tr>
+                    <th>Day</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                </tr>
+                <tr>
+                    <td>9-10</td>
+                    <td></td>
+                    <td class="select">Learn</td>
+                    <td></td>
+                    <td class="select">Learn</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>10-12</td>
+                    <td></td>
+                    <td class="select">Practice</td>
+                    <td></td>
+                    <td class="select">Practice</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>1-1:30</td>
+                    <td></td>
+                    <td class="select">Learn</td>
+                   <td class="select">Practice</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+              <tr>
+                <td>2-3:30</td>
+                <td></td>
+                <td class="select">Practice</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                
+              </tr>
+                <tr>
+                    <td>3:45-5</td>
+                    <td></td>
+                   <td class="select">Code</td>
+                    <td></td>
+                    <td></td>
+                   
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>6-6:15</td>
+                    <td class="select">Practice</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  <td></td>
+                    
+                </tr>
+            </table>
+  </div>
+
+  <!-- My Skills Section -->
+  <div>
+    <h1 class="skills">Classes I've completed and Skills I'm Developing</h1>
+    <table class="skills">
+      <td>HTML
+        <progress max="100" value="75">
+      </td>
+      <td>CSS
+        <progress max="100" value="40">
+      </td>
+      </table>
+    
+    <h3>Completed Courses</h3><!--Turn this into 4 columns-->
+    <table class="courses">
+      <th>Codecademy</th>
+      <th>freeCodeCamp</th>
+      <th>W3Schools.com</th>
+      <th>SoloLearn</th>
+      <tr>
+      <td>
+    <ul>
+    <li>Intro to HTML (non-PRO)</li>
+    <li>Learn CSS (09/17/2019)</li>
+      </ul></td>
+<td>
+  <ul>
+  
+  <li>Basic HTML and HTML5 (09/17/2019)</li>
+  <li>Basic CSS (09/17/2019)</li>
+  <li>Applied Visual Design (09/18/2019)</li>
+    <li>Applied Accessibility (09/20/2019)</li>
+  </ul>
+    </td>
+    <td>
+      <ul>
+    <li>HTML Tutorial (09/21/2019)</li>
+        <li>HTML Forms (09/21/2019)</li>
+        <li>CSS Tutorial (09/24/2019)</li>
+    </ul>
+    
+    </td>
+    <td>
+    <ul></ul>
+    </tr>
+  </td>
+    </table>
+    
+    <p>Certificates will go here when I start collecting them.</p>
+  </div>
+
+<!-- Things that Sound Interesting Section -->
+<div>
+                   <h1>Things that Sound Interesting</h1>
+                   <p>diffrent types of lists involvong thigs that sound fun/interesting</p>
+  <ul style="list-style-type:square;">
+    <li></li>
+    <li></li></ul>
+                   </div>
+                   
+                   
+  <!-- Media Section -->
+<div>
+  <h1 class="media">My Media</h1>
+  <p>This is supposed to be videos, images, etc. Not sure if this area will be completely relevant, or if it will be examples of the code that I've created myself.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/kjgsmINajlw"     allowfullscreen></iframe>
+  <p>First example can be this page created without css.</p>
+  <p>Clickable Image map</p>
+  <p>embed a video</p>
+  </div>
+  
+  <!-- Contact Me Form Section -->
+  <div>
+    <h1 id="contact">Contact Me</h1>
+    <p>This will be the form people can fill out. Name, email, (subject?), message. Eventually, this should probably point to my thepaperrose email addy.</p>
+    <form class="contact" action="#">
+                <input name="name" placeholder="Name" type="text" required /><br/>
+                <input name="email" placeholder="Email" type="email" required /><br/>
+                <textarea name="message" placeholder="Message" cols="300" rows="5" required ></textarea>
+                <input type="submit" value="SEND" class="submit" />
+            </form>
+  </div>
+<hr>
+  <!-- Follow Me Section -->
+  <div>
+    <h1 class="follow">Follow Me</h1>
+    <p>Image links to my SoloLearn, GitHub, Facebook, Codecademy, freeCodeCamp, etc. All _blank.
+  </div>
+  <!-- Lower nav Menu -->
+  <div>
+    <p>Create this nav bar using a horizontal list, search box, and form select.</p>
+    
+    <ul class="horizontal">
+      <li><a href="#aboutme">About Me</a></li>
+      <li><a href="#schedule">My Coding Schedule</a></li>
+      <li><a href="#skills">Classes</a></li>
+      <li><a href="#media">My Media</a></li>
+      <li><a href="#contact">Contact Me</a></li>
+      <li><a href="#follow">Follow Me</a></li>
+    </ul>
+    
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <h1>Footer</h1>
+    <p>Copyright Me</p>
+  </footer>
+</body>
+</html>
