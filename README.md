@@ -1,5 +1,2 @@
 # thepaperrose.github.io
-List the multitude of Courses that I've taken, as well as other things that may have added to my learning.
-Show examples of a few practice projects.
-Basically, show off a few skills.
-At some point, there may be a list of repositories I've contributed to or coding jobs I've had.
+Welcome to my repository. It's currently pretty empty, but will hopefully have some of my projects in it soon. I'm constantly learning, reading, practicing, I just never officially publish anything. Which is ridiculous. So, I'm going to spend a little time to go back and make some sense out of the chaos that is my notes, screenshots, and thoughts.
